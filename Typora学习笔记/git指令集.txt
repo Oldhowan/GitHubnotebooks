@@ -1,0 +1,17 @@
+# Git 指令集
+
+git add . 
+
+git add ''''  //添加文件夹
+
+git commit -m "……"
+
+git push origin master 
+
+git lfs track '''''
+
+git add ''''''
+
+git status
+
+![image-20220927161318360](Typora图片文件/image-20220927161318360.png)

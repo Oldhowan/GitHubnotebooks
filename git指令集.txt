@@ -1,0 +1,32 @@
+# Git 指令集
+
+git add . 
+
+git add ''''  //添加文件夹
+
+git commit -m "……"
+
+git push origin master 
+
+git lfs track '''''
+
+git add ''''''
+
+git status
+
+![](Typora学习笔记/Typora图片文件/QQ截图20220927161802.png)
+
+![](Typora学习笔记/Typora图片文件/QQ截图20220927161845.png)
+
+# git推送报错On branch main Your branch is ahead of ‘origin/main‘ by 1 commit
+
+说明没有文件需要commit，但是本地仓库 有一个commit ahead原来的master，就是本地仓库有一个提交，比远程仓库要先进一个commit。git push origin master之后，再用git staus，打印信息为：
+On branch master
+nothing to commit (working directory clean)
+
+这个错误信息为 git 登陆账号 需要在从新登陆 让后把本地仓库中的提交同步到云端
+解决办法为：
+
+登录用户并从新push
+
+![img](https://img-blog.csdnimg.cn/20210426164136764.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L21pbGlqaWFuZ2p1bg==,size_16,color_FFFFFF,t_70)
