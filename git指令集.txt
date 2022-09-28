@@ -1,5 +1,13 @@
 # Git 指令集
 
+#### 创建仓库流程：
+
+1、在本地文件夹 git init 初始化仓库
+2、git add .
+3、git commit -m "first commit"
+4、然后添加远程仓库：git remote add origin git@github.com:wingchi-leung/aBlog.git
+5、然后push： git push -u origin master
+
 git add . 
 
 git add ''''  //添加文件夹
@@ -13,6 +21,12 @@ git lfs track '''''
 git add ''''''
 
 git status
+
+我的项目和github上的仓库建立个联系，即终端输入：
+
+git remote add origin 仓库http地址
+
+git checkout main 
 
 ![](Typora学习笔记/Typora图片文件/QQ截图20220927161802.png)
 
