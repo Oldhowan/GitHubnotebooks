@@ -1,5 +1,9 @@
 # Git 指令集
 
+GitHub token:
+
+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
+
 git add . 
 
 git add ''''  //添加文件夹
