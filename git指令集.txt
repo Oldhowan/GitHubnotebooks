@@ -1,4 +1,4 @@
-# Git 指令集
+# Git 
 
 #### 创建仓库流程：
 
@@ -7,6 +7,8 @@
 3、git commit -m "first commit"
 4、然后添加远程仓库：git remote add origin git@github.com:wingchi-leung/aBlog.git
 5、然后push： git push -u origin master
+
+#### Git指令：
 
 git add . 
 
@@ -28,9 +30,13 @@ git remote add origin 仓库http地址
 
 git checkout main 
 
+#### 远程仓库修改后同步到本地仓库：
+
+
+
 ![](Typora学习笔记/Typora图片文件/QQ截图20220927161802.png)
 
-![](Typora学习笔记/Typora图片文件/QQ截图20220927161845.png)
+![](https://cdn.jsdelivr.net/gh/Oldhowan%20/GitHubnotebooks/img/202209281039164.png)
 
 # git推送报错On branch main Your branch is ahead of ‘origin/main‘ by 1 commit
 
@@ -43,4 +49,10 @@ nothing to commit (working directory clean)
 
 登录用户并重新push
 
-![img](https://img-blog.csdnimg.cn/20210426164136764.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L21pbGlqaWFuZ2p1bg==,size_16,color_FFFFFF,t_70)
+![img](https://cdn.jsdelivr.net/gh/Oldhowan%20/GitHubnotebooks/img/202209281039571.png)
+
+![image-20220928103829898](https://cdn.jsdelivr.net/gh/Oldhowan%20/GitHubnotebooks/img/202209281038002.png)
+
+远程仓库和本地仓库的同步：
+
+![image-20220928110015765](https://cdn.jsdelivr.net/gh/Oldhowan%20/GitHubnotebooks/img/202209281100925.png)
