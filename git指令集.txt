@@ -24,7 +24,7 @@ git status
 On branch master
 nothing to commit (working directory clean)
 
-这个错误信息为 git 登陆账号 需要在从新登陆 让后把本地仓库中的提交同步到云端
+这个错误信息为 git 登陆账号 需要在重新登陆 让后把本地仓库中的提交同步到云端
 解决办法为：
 
 登录用户并重新push
