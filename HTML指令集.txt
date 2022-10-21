@@ -1,1 +1,36 @@
-### 
+# HTML:  
+
+hyperText markup language!! (超文本标记语言)
+
+  /结束符
+
+<html  属性名 = “属性值>
+
+<html langue="en">
+
+</html>
+
+<!-->告诉搜索引擎爬虫，我们的网站时关于什么内容的。
+
+gb2312   gbk(包括亚洲语言，中文简体和繁体）
+
+unicode（万国码）
+
+utf-8
+
+<p>段落标签
+
+<strong>加粗
+
+<em>斜体
+
+<spam>
+
+空格  和   回车
+
+文本分隔符
+
+&nbsp； 空格
+
+&lt; &gt;
+
